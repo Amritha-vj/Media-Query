@@ -3,7 +3,8 @@
         padding: 5px;
         /* float: left; */
         border: 1px solid grey;
-        border-radius: 4px; 
+        border-radius: 4px;
+       
     }
     .gold .fa-jedi {
         color: #e6c300;
@@ -15,6 +16,7 @@
         color: #b39800;
     }
     .silver{
+        /* float: left; */
         padding: 5px;
         border: 1px solid grey;
         border-radius: 4px;	
@@ -139,7 +141,11 @@
     .s-icon{
         margin-right: 10px;
     }
-    
+    /* .search{
+        width:47.5%;
+        padding:10px;
+        margin-left:10px;
+    } */
     .button{
         border-radius:25px;
         width:50px;
@@ -148,7 +154,20 @@
         border: 1px solid #f2f2f2;
         padding:5px;
     }
-    
+    /* .input[type=text] {
+        width:85%;
+        background-color:#f2f2f2;
+        padding:9px;
+    } */
+    /* .border {
+        width: 475px;
+        height: 35px;
+        padding-left: 5px;
+        border-radius:6px;
+        margin-top: 0px;
+        border: 1px solid #b3b3b3;
+        background-color:#f2f2f2;
+    } */
     .search {
         width:40%;
         padding:10px;
@@ -213,7 +232,11 @@
     .fa-circle-info {
         padding-left:15px;
     }
-    
+    /* .left-container{
+        margin-top:15px;
+        width:14%;
+        padding-left:2px;
+    } */
     .team .fa-circle-info {
         padding-left:55px;
     }
@@ -692,30 +715,17 @@
         font-size: 12px;
     }
     .left-container {
-    margin-top: 8px;
-    width: 20%;
-    margin-left: 0px;
-    padding-left: 0px;
-}
+      
+        margin-top: 8px;
+        width: 16%;
+        margin-left: 7px;
+        padding-left: 0px;
+    }
     .right-container {
         float:left;
         width:78%;
         border-left: 1px solid  #d9d9d9;
         
-    }
-    .gold {
-        padding: 5px;
-        /* float: left; */
-        margin-bottom: 20px;
-        border: 1px solid grey;
-        border-radius: 4px;
-    }
-    .silver {
-        /* float: left; */
-        padding: 5px;
-        margin-bottom: 20px;
-        border: 1px solid grey;
-        border-radius: 4px;
     }
     #img-stack {
         width: 85%;
@@ -824,42 +834,8 @@
        display: inline; 
     } 
 }
- @media screen and (min-width:768px) and (max-width:1024px)  {
-    .container-top{
-        width:100%;
-        display: flex;
-        justify-content: space-between;
-        background-color:#f2f2f2;
-        border-top:3px solid #ff704d;
-        border: 1px solid red;
-    }
-    .stack-logo {
-        width: 12%;
-    }
-    .button {
-        border-radius: 25px;
-        width: 50px;
-        font-size: 10px;
-        background-color: #f2f2f2;
-        border: 1px solid #f2f2f2;
-        padding: 5px;
-    }
-    .products {
-        width: 4%;
-        margin-top: 5px;
-    }
-    .search {
-        float: left;
-        width: 50.5%;
-        padding: 10px;
-        margin-left: 20px;
-        cursor: pointer;
-    }
-    .s-icon {
-        margin-right: 10px;
-    }
-
-} 
+/* @media screen and (min-width:425px) and (max-width:768px)  {
+} */
 @media screen  and  (max-width:425px)  {
     .container-top{
         width:100%;
@@ -1082,6 +1058,3 @@
         
     }
 }
-    
- 
-  
