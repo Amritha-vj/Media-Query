@@ -1,0 +1,150 @@
+html, body {
+    margin:0px;
+    padding:0px;
+    border:0px;
+    left:0px;
+    top: 0px;
+    background-color:white;  
+    font-size:.875rem;
+    color:grey;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.stack-logo{
+	float:left;
+	width:14%;
+	padding:10px;
+	cursor:pointer;
+}
+#img-stack{
+	width: 65%;
+	height:45%;
+	margin-left:30px;
+}
+.products{
+	float:left;
+	width:6%;
+	padding-top:8px;
+	padding:10px;
+	cursor:pointer;	
+	margin-left:10px;
+	margin-top:5px;	
+    
+}
+.button{
+	border-radius:25px;
+	width:90px;
+	background-color:#f2f2f2;
+	border: 1px solid #f2f2f2;
+	padding:6px;
+}
+.button:hover{
+	background-color:#bfbfbf;
+}
+.search{
+	float:left;
+	width:50.5%;
+	padding:10px;
+	margin-left:20px;
+	cursor:pointer;	
+    
+
+}
+.search-icon{
+	float:left;
+}
+.input[type=text] {
+	border:none;
+	float:left;
+    outline:none;
+    width:500px;
+    background-color:#f2f2f2;
+    padding:10px;
+    cursor: pointer;	
+}
+.fa-magnifying-glass{
+   	padding:12px;
+}
+.border {
+	width: 600px;
+	height: 40px;
+	cursor: pointer;
+	box-sizing: border-box;
+	box-shadow: 2px 2px #f1ececef;
+	padding-left: 5px;
+	border-radius:6px;
+	margin-top: 0px;
+	cursor: pointer;
+	border: 1px solid #b3b3b3;
+	background-color:#f2f2f2;
+	cursor:pointer;	
+    
+}
+.s-icon{
+	float:right;
+	margin-right: 20px;
+	text-align:center;
+	
+}
+.profile{
+	float:right;
+	width:18%;
+	margin-top:10px;
+	cursor:pointer;	
+}
+.fa-id-card{
+	font-size: 18px;
+	padding:10px;
+}
+.inbox{
+	float:right;
+	width:18%;
+	margin-top:10px;
+	cursor:pointer;	
+}
+.fa-inbox {
+	font-size:18px;
+	padding:10px;
+}
+.trophy{
+	float:right;
+	width:18%;
+	margin-top:10px;
+	cursor:pointer;	
+	
+}
+.fa-trophy{
+	font-size:18px;
+	padding:10px;
+	color:grey;
+}
+.ask{
+	float:right;
+	width:18%;
+	
+	margin-top:10px;
+	cursor:pointer;		
+}
+.fa-circle-question{
+	font-size:18px;
+	padding:10px;
+	color:grey;
+}
+.list{
+	float:right;
+	width:18%;
+	
+	margin-top:10px;
+	cursor:pointer;	
+}
+.fa-stack-exchange{
+	font-size:18px;
+	padding:10px;
+	color:grey;
+}
+.clear-top {
+	clear:both;
+}
