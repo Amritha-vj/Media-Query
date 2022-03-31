@@ -1,9 +1,43 @@
-@media screen and (min-width:1026px) and (max-width:1411px)  {
+@media screen and (min-width:1026px) and (max-width:1121px)  {
+    .rows-1 {
+        width: 100%;
+        padding: 20px;
+    }
+    .profile-image {
+        /* width: 100%; */
+        /* height: 72%; */
+        border-radius: 6px;
+    }
+    .left-container {
+        float: left;
+        margin-top: 20px;
+        width: 15%;
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+    .right-container {
+        float: left;
+        width: 78%;
+        border-left: 1px solid #d9d9d9;
+    }
+    
+    .row-item-1 {
+        float: left;
+        width: 7%;
+        padding: 8px;
+        text-align: right;
+    }
+    .item-2 {
+        width: 45%;
+        padding: 0px;
+        font-size: 14px;
+        margin-left: 13px;
+    }
+    
     .gold{
         padding: 5px;
-        /* float: left; */
         border: 1px solid grey;
-        border-radius: 4px; 
+        border-radius: 4px;
     }
     .gold .fa-jedi {
         color: #e6c300;
@@ -26,7 +60,7 @@
     
     .bronze{
         padding: 5px;
-        /* float: left; */
+
         border-radius: 4px;
     }
     
@@ -50,17 +84,16 @@
         justify-content: space-between;
     }
     .r-1 {
-        padding:5px;
-        margin: 5px;
+        padding: 1px;
+        margin: 2px;
         border-radius: 4px;
-       
     }
-    .c-1{
-        padding:5px;
-        margin-top: 5px;
-        margin-left: 40px;
+    .c-1 {
+        padding: 1px;
+        font-size: 10px;
+        margin-top: 8px;
+        margin-left: 10px;
         text-align: right;
-        color: blue;
     }
     .dates{
         margin-left: 5px;
@@ -70,13 +103,77 @@
         display: block;
     }
 }
-
-
-@media screen and (max-width:1024px) {
-    *{
-        font-size: 14px;
+@media screen and (min-width:1122px) and (max-width:1440px)  {
+    .row-item-1 {
+        float: left;
+        width: 7%;
+        padding: 8px;
+        text-align: right;
     }
-
+    #img-stack {
+        width: 75%;
+        height: 45%;
+        margin-left: 30px;
+    }
+    .c-1 {
+        padding: 4px;
+        font-size: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: right;
+    }
+    .r-1 {
+        padding: 1px;
+        margin: 0px;
+        font-size: 12px;
+        border-radius: 4px;
+        background-color: #e6e6e6;
+        border: 1px solid #e6e6e6;
+    }
+    
+    .item-2 {
+        width: 55%;
+        padding: 25px;
+        font-size: 15px;
+        margin-left: 1px;
+        float: left;
+    }
+    .left-container {
+        float: left;
+        margin-top: 20px;
+        width: 15%;
+        margin-left: 10px;
+        padding-left: 5px;
+    }
+    .profile-image {
+        width: 100%;
+        /* height: 160px; */
+        border-radius: 6px;
+    }
+}
+@media screen and (max-width:1024px) {
+   
+    .left {
+        width: 26%;
+        float: left;
+        padding: 1px;
+    }
+    .com {
+        font-size: 14px;
+        width: 44%;
+    }
+    .right {
+        width: 65%;
+    }
+    .left-container {
+        float: left;
+        margin-top: 15px;
+        width: 18%;
+        font-size: 12px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
     .s-icon {
         margin-right: 10px;
     }
@@ -97,13 +194,7 @@
     .stack-logo{
         width:12%;  
     }
-    .left-container {
-        float: left;
-        margin-top: 20px;
-        width: 16%;
-        margin-left: 0px;
-        padding-left: 20px;
-    }
+    
     .right-container {
         float: left;
         width: 80%;
@@ -139,7 +230,7 @@
     .s-icon{
         margin-right: 10px;
     }
-    
+   
     .button{
         border-radius:25px;
         width:50px;
@@ -148,7 +239,7 @@
         border: 1px solid #f2f2f2;
         padding:5px;
     }
-    
+   
     .search {
         width:40%;
         padding:10px;
@@ -163,14 +254,14 @@
         padding:5px;
     }
     .input[type=text] {
-        width:85%;
+        /* width:85%; */
         background-color:#f2f2f2;
         padding:5px;
         margin-top: 6px;
     }
     .border {
-        width: 450px;
-        height: 40px;
+        /* width: 450px; */
+        /* height: 40px; */
         margin-left: 4px;
         padding-left: 2px;
         border-radius: 6px;
@@ -186,7 +277,7 @@
     .rows-1 {
         width: 100%;
         padding:10px;
-        margin: 20px;
+        /* margin: 20px; */
     }
     .item-1 {
         width:14%;
@@ -217,64 +308,54 @@
     .team .fa-circle-info {
         padding-left:55px;
     }
-    .right {
-        width:68%;
-        font-size:10px;
-    }
+   
     .stat {
         font-size:18px;
         padding-left:10px;
     }
-    .com {
-        font-size:16px;
-        width:45%;
-    }
+  
     .view {
-        font-size:12px;
-        margin-top:2px;
-        text-align:right;
+        font-size: 10px;
+        margin-top: 2px;
+        text-align: right;
     }
     .com-border-1 {
-        width:100%;
-        margin-top:15px;
-        padding:8px;
+        width: 100%;
+        margin-top: 6px;
+        padding: 8px;
     }
     .column-0 {
         width:6%;
         font-size:10px;
     }
     .column-1 {
-        width:75%;
-        font-size:10px;
-        font-weight:200;
-        padding:5px;
+        width: 84%;
+        font-size: 10px;
+        font-weight: 200;
+        padding: 0px;
     }
     .column-2 {
-        width:10%;
-        font-size:10px;
-        padding:3px;
-        cursor:pointer;
+        width: 10%;
+        font-size: 10px;
+        padding: 0px;
+        cursor: pointer;
     }
     .com-01 {
-        padding-top:9px;
-        
+        padding-top: 7px;
     }
     .com-02 {
-        padding-top:12px;
-       
-        
+        padding-top:14px; 
     }
     .com-03 {
-        padding-top:11px;
+        padding-top:16px;
        
     }
     .com-04 {
-        padding-top:10px;
-       
-        
+        padding-top:13px;  
     }
     .com-05 {
-        padding-top:8px;
+        padding-top:17px;
+        color: grey;
        
     }
     .com-2 {
@@ -369,13 +450,7 @@
         margin-left:7px;
         padding-top:2px;	
     }
-    /* .date-1 {
-        padding-left:20px;
-        font-size:7px;
-        margin-top:6px;
-        padding-top:2px;
-        padding-right: 2px;
-    } */
+    
     .date-2 {
         padding-left:30px;
         font-size:10px;
@@ -509,15 +584,27 @@
     .top {
         float:left;
     }
+    .size-1 {
+        font-size: 16px;
+        
+    }
+    .button-table{
+        font-size: 12px;
+    }
+    .view-all {
+        color: black;
+        font-size: 11px;
+        width: 100%;
+    }
     .green-button-1 {
-        font-size:8px;
-        margin-top:10px;
-        margin-right: 10px;	
+        font-size: 8px;
+        margin-top: 33px;
+        margin-right: 5px;
     }
     .green-button-2 {
         font-size:8px;
         margin-right: 10px;
-        margin-top:10px;
+        margin-top:33px;
     }
     .row-4 {
 	
@@ -585,13 +672,14 @@
     }
     .badge-group{
         display: block;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     .gold{
-        padding: 5px;
-        /* float: left; */
-        border: 1px solid grey;
+        padding: 15px;
+        border: 1px solid #d9d9d9;
         border-radius: 4px;
+        margin-bottom: 20px;
+        width: 95%;
     }
     .gold .fa-jedi {
         color: #e6c300;
@@ -603,10 +691,11 @@
         color: #b39800;
     }
     .silver{
-        /* float: left; */
+        margin-bottom: 20px;
         padding: 5px;
-        border: 1px solid grey;
+        border: 1px solid #d9d9d9;
         border-radius: 4px;	
+        width: 98%;
     }
     .silver .fa-jedi{
       
@@ -615,8 +704,9 @@
     
     .bronze{
         padding: 5px;
-        /* float: left; */
         border-radius: 4px;
+        width: 98%;
+        border: 1px solid #d9d9d9;
     }
     
     .bronze .fa-jedi{
@@ -644,12 +734,11 @@
         border-radius: 4px;
        
     }
-    .c-1{
-        padding:5px;
-        margin-top: 5px;
+    .c-1 {
+        padding: 4px;
+        margin-top: 0px;
         margin-left: 48px;
         text-align: right;
-        
     }
     .right-row-8 {
         font-size: 10px;
@@ -687,35 +776,179 @@
     }
     
 }
-@media screen and (min-width:425px) and (max-width:768px)  {
-    *{
-        font-size: 12px;
+@media screen and (min-width:426px) and (max-width:602px) {
+    .left-container {
+        float: left;
+        margin-top: 15px;
+        width: 25%;
+        font-size: 8px;
+        margin-left: 1px;
+        padding-left: 0px;
+    }
+    .team .fa-circle-info {
+        padding-left:35px;
+        display:none;
+    }
+    .collectives .fa-circle-info {
+        padding-left:35px;
+        display:none;
+    }
+   
+    h1 {
+        font-weight: 400;
+        font-size: 18px;
+        color: black;
+    }
+    .item-2 {
+        width: 55%;
+        margin-left: 72px;
+        margin-left: 0px;
+        padding-bottom: 4px;
+        padding-top: -2px;
+    }
+    .item-2 .fa-solid, .fas {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        font-size: 10px;
+    }
+    .item-2 .fa-regular {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .item-2 .fa-brands, .fab {
+        font-family: "Font Awesome 6 Brands";
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .item-1 {
+        width: 16%;
+        float: left;
+        cursor: pointer;
+    }
+    .profile-image {
+        width: 105px;
+        height: 105px;
+        border-radius: 4px;
+    }
+    .item-3 {
+        width: 16%;
+        text-align: center;
+    }
+ 
+}
+    
+@media screen and (min-width:426px) and (max-width:675px){
+
+}
+@media screen and (min-width:425px) and (max-width:600px) {
+    .input[type=text] {
+        /* width: 85%; */
+        background-color: #f2f2f2;
+        padding: 0px;
+        display: none;
+    }
+    .search {
+        width: 30%;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    .s-icon {
+        margin-right: 1px;
+        width: 30%;
+    }
+    .stack-logo {
+        width: 10%;
+    }
+    .fa-brands, .fab {
+     
+        font-weight: 200;
+        font-size: 15px;
+    }
+    .fa-solid, .fas {
+       
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .fa-regular, .far {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 400;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:620px) {
+    .search {
+        width: 39%;
+        padding: 10px;
+        margin-left: 10px;
+    }
+   
+}
+@media screen and (min-width:426px) and (max-width:443px) {
+    .search {
+        width: 39%;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .s-icon {
+        margin-right: 1px;
+        width: 25%;
+    }
+
+}
+@media screen and (min-width:444px) and (max-width:591px)  {
+    .search {
+        width: 38%;
+        padding: 10px;
+        margin-left: 0px;
     }
     .left-container {
-    margin-top: 8px;
-    width: 20%;
-    margin-left: 0px;
-    padding-left: 0px;
+        float: left;
+        margin-top: 15px;
+        width: 23%;
+        font-size: 8px;
+        margin-left: 1px;
+        padding-left: 0px;
+    }
+    .right-container {
+        float: left;
+        width: 76%;
+        border-left: 1px solid #d9d9d9;
+    }
+    .stack-logo {
+        float: left;
+        width: 14%;
+        padding: 5px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
 }
+@media screen and (min-width:425px) and (max-width:768px)  {
+   
+    .left-container {
+    float: left;
+    margin-top: 15px;
+    width: 21%;
+    font-size: 10px;
+    margin-left: 1px;
+    padding-left: 0px;
+    }
+    .title li { 
+        color:#cfcecc; 
+        font-size: 12px;
+    } 
+    .column_1 ul li {
+        font-size: 8px;
+        padding-top: 7px;
+    }
+    .stack-logo {
+        width: 14%;
+    }
     .right-container {
         float:left;
         width:78%;
         border-left: 1px solid  #d9d9d9;
         
-    }
-    .gold {
-        padding: 5px;
-        /* float: left; */
-        margin-bottom: 20px;
-        border: 1px solid grey;
-        border-radius: 4px;
-    }
-    .silver {
-        /* float: left; */
-        padding: 5px;
-        margin-bottom: 20px;
-        border: 1px solid grey;
-        border-radius: 4px;
     }
     #img-stack {
         width: 85%;
@@ -724,27 +957,78 @@
         margin-top: 5px;
     }
     .left {
-        width: 32%;
+        width: 97%;
         float: left;
         padding: 2px;
     }
+    .left-row-2 {
+        float: left;
+        width: 92%;
+        margin-top: 30px;
+    }
+
     .right {
-        width: 60%;
-        font-size: 10px;
+         width: 98%;
+         font-size: 10px;
     }
     .search {
-        width:40%;
+        width:30%;
         padding:10px;
         margin-left:0px;
     }
+    .view-badge {
+        font-size: 10px;
+        text-align: right;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+    .right-row-4 {
+        width: 96%;
+        font-size: 11px;
+    }
+    .gold {
+        padding: 5px;
+        margin-bottom: 20px;
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+    .silver {
+
+        padding: 5px;
+        margin-bottom: 20px;
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+    .gold .fa-circle {
+        color: #e6c300;
+        font-size: 6px;
+    }
+    .silver .fa-circle {
+        color: #c0c0c0;
+        font-size: 6px;
+    }
+    .bronze .fa-circle {
+        color: #b38600;
+        font-size: 6px;
+    }
+    .s-left .fa-solid, .fas {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        font-size: 6px;
+        margin-top: 13px;
+    }
+    .tags-list {
+       
+        margin-left: 6px;
+    }
     .input[type=text] {
-        width: 85%;
+        width: 38%;
         background-color: #f2f2f2;
         padding: 5px;
     }
     .border {
-        width: 348px;
-        height: 40px;
+        /* width: 348px; */
+        /* height: 40px; */
         margin-left: 4px;
         padding-left: 0px;
         border-radius: 6px;
@@ -765,7 +1049,7 @@
         margin-left:0px;
     }
     .row-item-1 {
-        width: 10%;
+        width: 14%;
     }
     .row-item-2 {
         float: left;
@@ -787,6 +1071,7 @@
         /* width:15%; */
         /* float:left; */
         text-align:center;
+        display: none;
     }
     footer {
         width: 100%;
@@ -824,47 +1109,127 @@
        display: inline; 
     } 
 }
- @media screen and (min-width:768px) and (max-width:1024px)  {
-    .container-top{
-        width:100%;
-        display: flex;
-        justify-content: space-between;
-        background-color:#f2f2f2;
-        border-top:3px solid #ff704d;
-        border: 1px solid red;
-    }
-    .stack-logo {
-        width: 12%;
-    }
-    .button {
-        border-radius: 25px;
-        width: 50px;
-        font-size: 10px;
-        background-color: #f2f2f2;
-        border: 1px solid #f2f2f2;
-        padding: 5px;
-    }
-    .products {
-        width: 4%;
-        margin-top: 5px;
-    }
+@media screen and (min-width:600px) and (max-width:626px)  {
     .search {
-        float: left;
-        width: 50.5%;
+        width: 37%;
         padding: 10px;
-        margin-left: 20px;
+        margin-left: 0px;
+    }
+}
+ @media screen and (min-width:455px) and (max-width:547px)  {
+    .rows-1 {
+        width: 100%;
+        padding: 4px;
+        margin: 2px;
+    }
+    .item-1 {
+        width: 16%;
+        float: left;
         cursor: pointer;
     }
-    .s-icon {
-        margin-right: 10px;
+    .profile-image {
+        width: 100px;
+        height: 100px;
+        border-radius: 4px;
+    }
+    .item-2 {
+        width: 71%;
+        font-size: 10px;
+        margin-left: 46px;
+        /* float: left; */
     }
 
 } 
+@media screen  and (max-width:454px)  {
+    .rows-1 {
+        width: 100%;
+        padding: 10px;
+        margin: 4px;
+    }
+    .item-1 {
+        width: 24%;
+        float: left;
+        cursor: pointer;
+    }
+    .item-2 {
+        width: 72%;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .rows-1 {
+        width: 100%;
+        padding: 2px;
+        margin: 4px;
+    }
+    .profile-image {
+        width: 85px;
+        height: 98px;
+        border-radius: 4px;
+    }
+}
+@media screen and (min-width:426px) and (max-width:520px) {
+    .view-all{
+        font-size: 9px;
+    }
+    .top {
+        float: left;
+        margin-bottom: -20px;
+    }
+    .button-table {
+        margin-right: 145px;
+        margin-bottom: 0px;
+    }
+    
+}
 @media screen  and  (max-width:425px)  {
     .container-top{
         width:100%;
         background-color:#f2f2f2;
         border-top:3px solid #ff704d;
+    }
+    .title b {
+        font-size: 8px;
+        margin-left: -8px;
+        opacity: 0.9;
+    }
+    .column_1 {
+        margin-right: 40px;
+        opacity: 0.6;
+    }
+    .s-right {
+        display: flex;
+        padding: 8px;
+    }
+    .meta-tags {
+        float: left;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .icon-list-2 .fa-solid, .fas {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        font-size: 12px;
+    }
+    .icon-list-2 {
+        float: left;
+        margin-top: 7px;
+        font-size: 11px;
+        margin-left: 0px;
+    }
+    .top-list {
+        display: flex;
+        /* justify-content: space-between; */
+        border-bottom: 1px solid #e6e6e6;
+        padding: 1px;
+    }
+    .text-list {
+        /* float: left; */
+        color: #33adff;
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 9px;
+        padding: 5px;
+        font-weight: 200;
     }
     .title li { 
         color:#cfcecc; 
@@ -915,17 +1280,26 @@
     .gold {
         padding: 5px;
         /* float: left; */
-        font-size: 12px;
-        border: 1px solid grey;
+        font-size: 10px;
+        border: 1px solid #d9d9d9;
         border-radius: 4px;
         margin-top: 20px;
+        width:95%;
     }
     .silver {
     /* float: left; */
     padding: 5px;
-    border: 1px solid grey;
+    border: 1px solid #d9d9d9;
     border-radius: 4px;
     margin-top: 20px;
+    width: 98%;
+    }
+    .bronze {
+        padding: 5px;
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+        margin-top: 20px;
+        width: 98%;
     }
     .place-1 {
        padding-top: 8px;
@@ -956,15 +1330,15 @@
         display: none;
     }
     .border {
-        width: 40px;
-        height: 31px;
+        /* width: 40px; */
+        /* height: 31px; */
         padding-left: 5px;
         border-radius: 6px;
         margin-top: 0px;
         /* display: none; */
     }
     .input[type=text] {
-        width: 85%;
+        /* width: 85%; */
         display: none;
     }
     .left-row-2 {
@@ -1025,9 +1399,7 @@
         color:#cfcecc; 
         font-size: 14px;
     } 
-    .title b{
-        font-size: 12px;
-    }
+  
     .column_1 li { 
        display: inline; 
     } 
@@ -1081,7 +1453,32 @@
         padding: 4px;
         
     }
+    .c-1 {
+        padding: 4px;
+        margin-top: 8px;
+        margin-left: 48px;
+        text-align: right;
+    }
+    .button-table {
+        margin-right: 128px;
+        margin-bottom: 0px;
+    }
 }
-    
+@media screen and(min-width:1026px) and(min-width:1057px) {
+    .view-all {
+        color: black;
+        font-size: 11px;
+    }
+    .green-button-2 {
+        font-size: 8px;
+        margin-right: 10px;
+        margin-top: 33px;
+    }
+    .green-button-1 {
+        font-size: 8px;
+        margin-top: 33px;
+        margin-right: 5px;
+    }
+}  
  
   

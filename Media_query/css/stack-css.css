@@ -953,17 +953,14 @@ ul {
 	float:left;
 }
 .green-button-1 {
-	float:right;
-	margin-top:10px;
-	margin-right: 5px;
-	
-	
+    font-size: 8px;
+    margin-top: 30px;
+    margin-right: 5px;
 }
 .green-button-2 {
-	float:right;
-	margin-right: 10px;
-	margin-top:10px;
-	
+    font-size: 8px;
+    margin-right: 10px;
+    margin-top: 31px;
 }
 
 .all {
